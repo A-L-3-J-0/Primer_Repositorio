@@ -1,0 +1,13 @@
+COMANDOS GIT
+1.git init//Crea un nuevo repositorio Git en el directorio actual. Inicializa un nuevo repositorio vacío.
+2.git status//Muestra el estado actual del repositorio, incluyendo archivos modificados, archivos listos para el commit y archivos no rastreados.
+3.git config --global user.name//Configura tu nombre de usuario en Git a nivel global. Este nombre se usará en los commits.
+4.git config --global user.email//Configura tu dirección de correo electrónico en Git a nivel global. Se usará en los commits.
+5.git add .//Añade todos los archivos y cambios del directorio actual al área de preparación (staging area), preparándolos para el commit.
+6.git commit -m//Crea un nuevo commit con los archivos que están en el área de preparación, utilizando el mensaje proporcionado.
+7.git chekout//Permite cambiar entre ramas o restaurar archivos. Puede usarse para acceder a versiones anteriores de archivos o cambiar de rama.
+8.git push -u//Sube los cambios locales a un repositorio remoto (normalmente en GitHub o GitLab) y establece la rama actual para hacer seguimiento a la rama remota.
+9.git log//Muestra un historial de commits en el repositorio, incluyendo información como el autor, la fecha y el mensaje de cada commit.
+10.git remote add//Añade un repositorio remoto y le asigna un nombre. Esto es útil para trabajar con repositorios en línea.
+11.git remote -v//Se utiliza para mostrar una lista de los remotos configurados en un repositorio local.
+12.git branch//Indica en que rama se esta trabajando.	
